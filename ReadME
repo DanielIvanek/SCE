@@ -1,0 +1,19 @@
+Vytvořte program, který umožní trénování třívrstvých sítí (sítí s 1 skrytou vrstvou).
+Vytvořte a natrénujte síť tak, aby dokázala aproximovat Vámi zvolenou funkci z nabídky: sinh, cosh, tanh, coth, exp. (Neočekávám, že si všichni náhodou zvolíte tu stejnou.)
+Proveďte analýzu citlivosti na počet neuronů ve skryté vrstvě, learning rate (parametr učení) a počet epoch učení - porovnejte MSE.
+
+
+Můžete se inspirovat zadáním 1a projektů z minulých let: https://lms.vsb.cz/mod/folder/view.php?id=1073774
+
+Odevzdejte zip soubor, ve kterém bude:
+
+a) dokument s:
+
+titulní stranou
+teoretickým popisem zadání (vysvětlením a vzorci, jak fungují dopředné (feed-forward) neuronové sítě - dopředný chod i backpropagation)
+obrázkem, ve kterém bude "přes sebe" graf vámi zvolené funkce a graf nejlepší Vámi dosažené aproximace pomocí neuronové sítě
+výstupem analýzy citlivosti
+b) složka se zdrojovým kódem; můžete zobecnit a rozšířit ten, který máte ze cvičení; nepoužívejte žádné externí knihovny. Pro implementaci zvolte jazyk, který byste zvolili, kdybyste takový úkol dostali v práci nebo zpracovávali jako freelanceři a museli projekt prezentovat a dále rozvíjet Používejte pouze základní knihovnu Vámi zvoleného jazyka (= angl. standard library)
+
+Kód ze cvičení: https://github.com/em7/sce20-01
+
